@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "⌚ Smart Watch",
+    "price": 49.9,
+    "imgUrl": "/imgs/pic-1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Ⓜ️ Laptop",
+    "price": 1199,
+    "imgUrl": "/imgs/pic-2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "🎧Headphone",
+    "price": 100,
+    "imgUrl": "/imgs/pic-3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "💾 HardDisk",
+    "price": 25,
+    "imgUrl": "/imgs/pic-4.jpg"
+  }
+]
