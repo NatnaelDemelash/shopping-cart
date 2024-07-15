@@ -4,10 +4,11 @@ import About from './pages/About';
 import Store from './pages/Store';
 import NotFound from './pages/NotFound';
 import Navbar from './components/Navbar';
+import { ShoppingCartProvider } from './context/ShoppingCartContext';
 
 const App = () => {
   return (
-    <>
+    <ShoppingCartProvider>
       <Navbar />
       <div className="container mx-auto m-4 px-2 md:m-8 md:px-6">
         <Routes>
@@ -17,7 +18,7 @@ const App = () => {
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
-    </>
+    </ShoppingCartProvider>
   );
 };
 
